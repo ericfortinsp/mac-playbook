@@ -8,7 +8,7 @@ ZSH_THEME="{{ zsh_theme }}"
 
 ######################### POWERLINE THEME OPTIONS: #########################
 export TERM="xterm-256color"
-{% for key, value in zsh_theme_settings.iteritems() %}
+{% for key, value in zsh_theme_settings.items() %}
 {{ key }}="{{ value }}"
 {% endfor %}
 

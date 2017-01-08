@@ -2,6 +2,6 @@
   name = {{ git_name }}
   email = {{ git_email }}
 [alias]
-  {% for key, value in git_aliases.iteritems() %}
+  {% for key, value in git_aliases.items() %}
   {{ key }} = {{ value }}
   {% endfor %}
