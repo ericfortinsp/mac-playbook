@@ -1,8 +1,8 @@
 ---
 - hosts: all
   vars:
-    - git_name: "Pawel Oczadly"
-    - git_email: "paweloczadly@gmail.com"
+    - git_name: "Eric Fortin"
+    - git_email: "ericfortin.sp@gmail.com"
     - git_aliases:
         br: branch
         ck: checkout
